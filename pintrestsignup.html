@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            margin: 0;
+            align-items: center;
+            text-align: center;
+            width: 50%;
+            border-radius: 5px;
+        }
+
+        .body-div {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding-left: 40px;
+        }
+
+        .body2 {
+            height: 800px;
+            width: 450px;
+            margin-left: 30%;
+        }
+
+
+
+
+        .parent-container {
+            text-align: center;
+            align-items: center;
+            background-color: #efefef;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .parent-container .logo {
+            width: 50px;
+            height: 50px;
+            background: #e60023;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+            font-size: 40px;
+            margin: 0 auto 10px;
+        }
+
+        form {
+            width: 100%;
+            border-radius: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        label {
+            display: block;
+            text-align: left;
+            margin-top: 9px;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 80%;
+            padding: 12px;
+            border-radius: 15px;
+            outline: none;
+        }
+
+        .continue {
+            width: 80%;
+            margin-top: 15px;
+            padding: 12px;
+            border: none;
+            border-radius: 20px;
+            background-color: #e60023;
+            color: white;
+            margin-bottom: 12px;
+        }
+
+        .or {
+            color: #333333;
+        }
+
+        .google {
+            margin-top: 12px;
+            width: 70%;
+            padding: 10px;
+            border-radius: 20px;
+            background: #efefef;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .google img {
+            width: 18px;
+        }
+
+        .terms {
+            margin-top: 12px;
+        }
+
+        .terms a {
+            color: #111;
+            text-decoration: underline;
+        }
+
+        .login {
+            margin-top: 10px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body-div">
+        <div class="body2">
+            <div class="parent-container">
+                <form>
+                    <div class="logo">
+                        <i class="fa-brands fa-pinterest-p"></i>
+                    </div>
+                    <h1>Welcome to Pinterest</h1>
+                    <p>Find new ideas to try</p>
+                    <label for="">Email address</label>
+                    <input type="text" placeholder="Email address"><br>
+                    <label for="">Password</label>
+                    <input type="text" placeholder=" Create a Password">
+                    <p>Use 8 or more letters, numbers and symbols</p>
+                    <div></div>
+                    <label for="">Date of Birth</label>
+                    <input type="text" placeholder="dd-mm-yyyy">
+            </div class="">
+            <button class="continue">Continue</button>
+            <div class="or"> OR </div>
+            <button class="google">
+                <img src="https://cdn-icons-png.flaticon.com/512/281/281764.png">
+                Continue with Google
+            </button>
+            <p class="terms">
+                By continuing, you agree to Pinterest's
+                <a href="#">Terms of Service</a> and acknowledge that you've
+                read our <a href="#">Privacy Policy</a><a href="">Notice at Collection</a>.
+            </p>
+            <p class="login">Already a member? <b>Log in</b>
+            </p>
+
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
